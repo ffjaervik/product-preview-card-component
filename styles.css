@@ -31,6 +31,7 @@ body {
 #container {
 	width: 50vw;
 	height: 60vh;
+    border: none;
 	border-radius: 15px;
 	display: flex;
 	justify-content: space-between;
@@ -51,7 +52,8 @@ img {
 #container-text {
     width: 50%;
     height: 100%;
-    padding:30px;
+    padding:42px;
+    
 }
 
 #category {
@@ -59,17 +61,17 @@ img {
     letter-spacing: 0.3rem;
     color: var(--neutral-gray);
     font-weight: 500;
-    font-size: 0.7em;
+    font-size: 0.9vw;
     margin-bottom: 1rem;
 }
 #title {
     font-family: 'Fraunces';
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 1rem;
+    font-size: 2.7vw;
+    margin-bottom: 2rem;
+    line-height: 0.94;
 }
 #text{
-    font-size: 14px;
+    font-size: 1.1vw;
     margin-bottom: 1rem;
     color: var(--neutral-gray);
     line-height: 1.5;
@@ -78,21 +80,44 @@ img {
 #container-price {
     display: flex;
     justify-content: start;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 #discount{
     color: var(--primary-cyan);
     font-family: "Fraunces";
-    font-size: 2em;
+    font-size: 2.2vw;
 }
 #price{
     text-decoration: line-through;
-    font-size: 0.8em;
-   
-    
+    font-size: 0.9vw;
+    color: var(--neutral-gray);
+}
+button {
+    background-color: var(--primary-cyan);
+    color: var(--neutral-white);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    width: 90%;
+    height: 5vh;
+    font-size: 1vw;
+
+}
+#shopping-cart{
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 
